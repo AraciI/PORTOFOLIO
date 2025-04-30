@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porto</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--box icons-->
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"/>
+</head>
+
+<body>
+    <!--navbar design-->
+    <header class="header">
+        <a href="#" class="logo">Gita Annisa | Frontend Dev</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+
+            <span class="active-nav"></span>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 class="judul1">Hi, I'm <span>Gita Annisa</span></h1>
+            <div class="text-animate">
+                <h3>Frontend Developer</h3>
+            </div>
+            <p>
+                Hai! Nama aku Gita. Saat ini aku kuliah di Universitas Raharja dan tinggal di Tangerang. Senang bisa kenal dengan kalian! Semoga kita bisa jadi partner yang cocok, yaa!
+            </p>
+
+            <div class="btn-box">
+                <a href="https://www.instagram.com/gitanisaaa_/?igsh=MWh2N3cyeTBhemVrbg%3D%3D#" class="btn">Hire Me</a>
+                <a href="https://wa.me/628551487200" class="btn">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <h2 class="heading">About <span1>Me</span1></h2>
+    
+        <div class="about-img">
+            <img src="gita1.jpg" alt="" srcset="">
+            <span class="circle-spin"></span>
+        </div>
+    
+        <div class="about-content">
+            <h3>Gita Annisa Nurjannah</h3>
+            <p id="about-text" class="collapsed">
+                Hai! Aku mahasiswa Teknik Informatika yang suka banget ngulik dunia coding. Buatku, teknologi itu seru karena selalu berkembang dan selalu ada hal baru yang bisa dipelajari.
+                <span id="dots">...</span>
+                <span id="more-text" style="display: none;">
+                    Aku paling semangat kalau disuruh coba hal-hal baru yang menantang—selama itu menarik, aku pasti kejar!
+
+                    Selama kuliah, aku juga aktif di organisasi. Salah satu pengalaman yang paling berkesan adalah waktu aku jadi bendahara di acara Seminar & Workshop HIMTIF yang temanya "From Zero to Hero: Kecerdasan di Balik Website Pintar." Di situ aku belajar banyak soal kerja tim, tanggung jawab, dan pentingnya manajemen waktu.
+
+                    Aku termasuk orang yang disiplin dan gak suka menunda-nunda. Kalau punya target, aku bakal kejar sampai dapat. Sekarang aku lagi terus belajar biar bisa makin jago di bidang teknologi, khususnya di pengembangan software dan website.
+                </span>
+            </p>
+    
+            <div class="btn-box btns">
+                <button class="btn" onclick="toggleText()">Read More</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--education section design-->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">
+                                <i class="bx bxs-calendar"></i> 2018 - 2021
+                            </div>
+                            <h3>Madrasah Tsanawiyah Negri 3</h3>
+                            <p>MTsN 3 Kota Tangerang adalah Madrasah Tsanawiyah Negeri yang berlokasi di Jalan Adi Sucipto, Kelurahan Belendung, Kecamatan Benda, Kota Tangerang, Provinsi Banten. Sekolah ini berdiri pada tanggal 25 November 1995 berdasarkan SK Menteri Agama No. 515A tahun 1995.</p>
+                            </div>
+                        </div>
+
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="bx bxs-calendar"></i> 2021 - 2024
+                                    </div>
+                                     <h3>Madrasah Aliyah At-Taqwa Yastu</h3>
+                                     <p>
+                                        Madrasah Aliyah At-Taqwa YASTU adalah lembaga pendidikan menengah atas swasta yang berlokasi di Jl. Raya Serang Km. 2, Kadumerak, Kecamatan Karang Tanjung, Kabupaten Pandeglang, Banten. Didirikan pada 27 Desember 2012, madrasah ini berada di bawah naungan Yayasan Sumur Tujuh dan Kementerian Agama Republik Indonesia.​
+                                     </p>
+                                </div>
+                            </div>
+
+                            <div class="education-content">
+                                <div class="content">
+                                    <div class="year">
+                                        <i class="bx bxs-calendar"></i> 2021 - 2024
+                                        </div>
+                                         <h3>Pondok Pesantren Al-Qur’aniyyah Assanusiyyah</h3>
+                                         <p>
+                                            Pondok Pesantren Al-Qur’aniyyah Assanusiyyah merupakan lembaga pendidikan Islam yang terletak di Jl. Raya Serang–Pandeglang Km 2, Desa Kadumerak, Kecamatan Karang Tanjung, Kabupaten Pandeglang, Banten 42251. Dipimpin oleh KH. Bai Sanusi, pesantren ini dikenal aktif dalam kegiatan keagamaan dan sosial.
+                                         </p>
+                                    </div>
+                                </div>
+
+                            <div class="education-content">
+                                <div class="content">
+                                    <div class="year">
+                                        <i class="bx bxs-calendar"></i> 2024 - sekarang
+                                        </div>
+                                         <h3>Universitas Raharja</h3>
+                                         <p>
+                                            Universitas Raharja (UR) adalah perguruan tinggi swasta yang berlokasi di Kota Tangerang, Banten, Indonesia. Didirikan pada 12 April 1999, UR berkomitmen untuk menjadi lembaga pendidikan tinggi yang unggul dan berdaya saing global.
+                                         </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="education-column">
+                        <h3 class="title">Experience</h3>
+
+                        <div class="education-box">
+                            <div class="education-content">
+                              <div class="content">
+                                <div class="year">
+                                  <i class="bx bxs-calendar"></i> 2022
+                                </div>
+                                <h3>Juara 1 Lomba Cerdas Cermat se Sekolah</h3>
+                                <p>
+                                  Pada semasa Sekolah Menengah saya mendapatkan sebuah prestasi yaitu dengan menjadi Juara Cerdas Cermat se sekolah. Pada kompetisi ini para peserta diwajibkan untuk bisa memahami beberapa materi tentang Matematika, Bahasa Inggris, serta memahami kaidah ke Islaman. Dengan tercapai nya saya sebagai juara 1, dapat terbuktikan bahwa saya telah menguasai tiga bidang tersebut.
+                                </p>
+                              </div>
+                            </div>
+
+                            <div class="education-content">
+                                <div class="content">
+                                  <div class="year">
+                                    <i class="bx bxs-calendar"></i> 2022 - 2023
+                                  </div>
+                                  <h3>Menjabat sebagai Bendahara Ponpes</h3>
+                                  <p>
+                                    Pada saat mengemban ilmu di pondok pesantren, saya telah di percayai untuk menjabat menjadi seorang bendahara ponpes selama 2 tahun berturut-turut. Dengan begitu dapat dibuktikan bahwa saya dapat mengatur serta mengelola keuangan dengan baik.
+                                  </p>
+                                </div>
+                              </div>
+
+                              <div class="education-content">
+                                <div class="content">
+                                  <div class="year">
+                                    <i class="bx bxs-calendar"></i> 2025
+                                  </div>
+                                  <h3>Menjabat sebagai Bendahara dalam sebuah Seminar HIMTIF</h3>
+                                  <p>
+                                    Pada saat semester 2 saya telah terpilih menjadi seorang bendahara dalam sebuah seminar yang bertemakan From Zero to Hero, Kecerdasan Di Balik Website Pintar yang diselenggarakan oleh Himpunan Mahasiswa Teknik Informatika Universitas Raharja (HIMTIF). Dengan begitu, saya telah di akui bisa mengelola keuangan serta mengatur nya dengan bijak. Dengan begitu saya telah memperdalam pembelajaran tentang Microsoft Excel, sehingga sudah dipastikan bahwa saya sudah sangat mahir dalam input-menginput sebuah data. 
+                                  </p>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--skills section design-->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+  
+        <div class="skills-row">
+          <div class="skills-column">
+            <h3 class="title">Coding Skills</h3>
+  
+            <div class="skills-box">
+              <div class="skills-content">
+                <div class="progress">
+                  <h3>JavaScript <span>50%</span></h3>
+                  <div class="bar"><span></span></div>
+                </div>
+  
+                <div class="progress">
+                  <h3>C++ <span>70%</span></h3>
+                  <div class="bar"><span></span></div>
+                </div>
+  
+                <div class="progress">
+                  <h3>Java <span>80%</span></h3>
+                  <div class="bar"><span></span></div>
+                </div>
+  
+                <div class="progress">
+                  <h3>Python <span>60%</span></h3>
+                  <div class="bar"><span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="skills-column">
+            <h3 class="title">Professional Skills</h3>
+  
+            <div class="skills-box">
+              <div class="skills-content">
+                <div class="progress">
+                  <h3>Web Design <span>60%</span></h3>
+                  <div class="bar"><span></span></div>
+                </div>
+  
+                <div class="progress">
+                  <h3>Web Development <span>75%</span></h3>
+                  <div class="bar"><span></span></div>
+                </div>
+  
+                <div class="progress">
+                  <h3>Perancangan & Pengelolaan Basis Data <span>30%</span></h3>
+                  <div class="bar"><span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--footer design-->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Gita. | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
